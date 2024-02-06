@@ -26,10 +26,12 @@ RED4ext::CClass* CustomController::GetNativeType()
 
 Using the class & type we've created, we'll write two hooks (`RegisterTypes` and `PostRegisterTypes`) to register the type with CP2077 at the appropriate times. The first one that gets called sets the `isNative` flag for the class, which will match the `native` descriptor on the Redscript side, and registers the type to CP2077:
 
-<pre class="language-cpp"><code class="lang-cpp"><strong>void RegisterTypes()
-</strong>{
-    RED4ext::CRTTISystem::Get()->RegisterType(&#x26;customControllerClass);
-}</code></pre>
+```cpp
+void RegisterTypes()
+{
+    RED4ext::CRTTISystem::Get()->RegisterType(&customControllerClass);
+}
+```
 
 The next block will manually set the parent of our type to `IScriptable`, to match the class.
 

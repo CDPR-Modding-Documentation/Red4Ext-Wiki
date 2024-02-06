@@ -11,10 +11,11 @@
 
 ## Mod Developers
 
-* [RED4ext & RED4ext.SDK](mod-developers/red4ext-and-red4ext.sdk.md)
+* [RED4ext & RED4ext.SDK](mod-developers/red4ext-and-red4ext.sdk/README.md)
+  * [Browse Red4Ext: NativeDB](mod-developers/red4ext-and-red4ext.sdk/browse-red4ext-nativedb.md)
 * [Creating a Plugin](mod-developers/creating-a-plugin.md)
-* [Creating a Custom Native Class](mod-developers/creating-a-custom-native-class/README.md)
-  * [Adding a Native Function](mod-developers/creating-a-custom-native-class/adding-a-native-function.md)
+* [Creating a Custom Native Class](mod-developers/creating-a-custom-native-class.md)
+* [Adding a Native Function](mod-developers/adding-a-native-function.md)
 * [Custom game states](mod-developers/custom-game-states.md)
 * [Logging](mod-developers/logging.md)
 
