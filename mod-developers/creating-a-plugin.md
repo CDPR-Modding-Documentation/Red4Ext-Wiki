@@ -62,6 +62,10 @@ The entry-point of the plugin. This equivalent of `DllMain` except that it is ca
 
 Here you can attach hooks and register RTTI types.
 
+{% hint style="warning" %}
+Memory allocators are not initialized yet. If you need to use RTTI system (call functions for example), see [Custom game states](custom-game-states.md) to execute your code when RTTI system is ready.
+{% endhint %}
+
 #### Parameters
 
 * **RED4ext::PluginHandle** - The unique identifier of the plugin.
