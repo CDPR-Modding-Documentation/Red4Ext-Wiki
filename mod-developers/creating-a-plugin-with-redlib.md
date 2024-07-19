@@ -218,6 +218,6 @@ Run the game, you should see some outputs in the Game Log when using CET.
 
 ## Conclusion
 
-This is a simple introduction to RedLib and how it can make your life easier when writing plugin with [RED4ext.SDK](https://github.com/WopsS/RED4ext.SDK). You should definitively go the [GitHub repository](https://github.com/psiberx/cp2077-red-lib/) and read through the entire README to learn about all the features it provides.
+This is a simple introduction to RedLib and how it can make your life easier when writing plugin with [RED4ext.SDK](https://github.com/WopsS/RED4ext.SDK). You should definitively go to the [GitHub repository](https://github.com/psiberx/cp2077-red-lib/) and read through the entire README to learn about all the features it provides.
 
 Happy coding!
