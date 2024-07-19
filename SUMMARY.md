@@ -19,6 +19,7 @@
 * [Custom game states](mod-developers/custom-game-states.md)
 * [Logging](mod-developers/logging.md)
 * [Creating a plugin with RedLib](mod-developers/creating-a-plugin-with-redlib.md)
+* [Installing a plugin with red-cli](mod-developers/installing-a-plugin-with-red-cli.md)
 
 ## Utils
 
