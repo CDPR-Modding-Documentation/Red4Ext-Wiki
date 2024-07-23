@@ -24,6 +24,10 @@ Your mod should export few functions in order to be loaded correctly (see below 
 If your plugin needs to load other dynamic libraries (DLLs) you can place them in the same folder where your plugin is located.
 {% endhint %}
 
+{% hint style="warning" %}
+If you keep your MSVC environment up to date, it will update Visual C++ Redistributable on your system. Players may not be on the same, latest version of VC Redist. In such case, the game is likely to crash. Make sure to inform players to download the latest version when troubleshooting. You can redirect them to this [link](https://aka.ms/vs/17/release/vc\_redist.x64.exe).
+{% endhint %}
+
 ## Exported functions
 
 ### Supports
