@@ -1,6 +1,6 @@
 # Creating a Plugin
 
-To create a new plugin you can whatever build systen / toolchain you would like, as long as the output is compatible with x86-64 architecture and with `__fastcall` calling convention.
+To create a new plugin you can use whatever build systen / toolchain you would like, as long as the output is compatible with x86-64 architecture and with `__fastcall` calling convention.
 
 Some examples you can use one of the following:
 
