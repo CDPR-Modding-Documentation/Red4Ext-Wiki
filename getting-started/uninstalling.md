@@ -6,7 +6,7 @@ description: Guide how to uninstall RED4ext.
 
 ## Uninstalling RED4ext
 
-1. **Remove** `d3d11.dll` or `powrprof.dll` from `<game_directory>/bin/x64`.
+1. **Remove** `d3d11.dll`, `powrprof.dll` or `winmm.dll` from `<game_directory>/bin/x64`.
 2. (**Optionally**) Remove`red4ext` directory from `<game_directory>`.
 
 ## **Uninstalling a Plugin**
