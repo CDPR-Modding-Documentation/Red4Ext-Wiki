@@ -11,14 +11,14 @@ description: >-
 [red-cli](https://github.com/rayshader/cp2077-red-cli) is command line interface tool to improve your experience as a scripting modder. It allows you to run commands from a terminal to quickly install your plugin in the game folder. It is also convenient to make an archive with your plugin, ready to release to users on Nexus Mods.
 
 {% hint style="info" %}
-This tool is also compatible with Redscript. See [this guide](https://app.gitbook.com/s/-McniwB8YOK2HnJ7SYg\_/getting-started/setting-up-redscript-and-vscode#id-4.-bundle-with-red-cli) if you are also writing scripts in addition to a RED4ext plugin.
+This tool is also compatible with Redscript. See [this guide](https://app.gitbook.com/s/-McniwB8YOK2HnJ7SYg_/getting-started/setup-for-vscode#id-4.-bundle-with-red-cli) if you are also writing scripts in addition to a RED4ext plugin.
 {% endhint %}
 
 ## Setup red-cli
 
 This tool requires a `red.config.json` file to be present in the root directory of your project. Basically, it should be in the same directory of your `CMakeLists.txt` file.
 
-You can find everything you need to install / configure red-cli through its README.
+See the [red-cli README](https://github.com/rayshader/cp2077-red-cli) for information on its install and configuration.
 
 ## Setup CMake
 
